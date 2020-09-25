@@ -1,0 +1,33 @@
+{
+    "name": "react-mapgl-with-deck-geojson-components",
+    "version": "0.1.3",
+    "description": "React Mapgl with deck geojsoncomponents",
+    "main": "generated/index.js",
+    "scripts": {
+        "clean": "rm -fr ./generated",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "temp-fix": "rm -fr ./node_modules/@types/gl-matrix",
+        "build": "npm run clean && npm run temp-fix &&  tsc -p ."
+    },
+    "author": "Sanket Gautam",
+    "license": "ISC",
+    "types": "generated",
+    "dependencies": {
+        "@turf/bbox": "6.0.1",
+        "deck.gl": "7.3.9",
+        "react-map-gl": "5.2.0"
+    },
+    "devDependencies": {
+        "@danmarshall/deckgl-typings": "^3.4.1",
+        "@types/node": "13.1.2",
+        "@types/react": "16.8.23",
+        "@types/react-dom": "16.8.4",
+        "@types/react-map-gl": "5.2.0",
+        "typescript": "3.7.4",
+        "viewport-mercator-project": "7.0.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.0.0",
+        "react-dom": ">=16.0.0"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "generated",
+        "module": "commonjs",
+        "target": "es6",
+        "sourceMap": true,
+        "allowJs": false,
+        "jsx": "react",
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "typeRoots": [
+            "index.d.ts",
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
